@@ -1,5 +1,5 @@
 # ssedata
-[《无光之海》民间汉化 https://paratranz.cn/projects/12215]所用的游戏数据处理工具。
+[《无光之海》民间汉化](https://paratranz.cn/projects/12215)所用的游戏数据处理工具。
 
 ## getcsv.py
 获取``paratranz``所需的``.csv``文件。
