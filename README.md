@@ -10,3 +10,6 @@
 将``paratranz``文件解析为``.json``文件。
 
 将``pack.py``与``raw``置于同一目录下，使用`py.exe pack.py <版本号>`生成文件。
+
+将生成的文件夹直接移动至此即可生效：
+```%AppData%/../LocalLow/Failbetter Games/Sunless Sea/addon/```
