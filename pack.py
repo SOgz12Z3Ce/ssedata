@@ -60,12 +60,13 @@ def prase(obj, key, value) -> None:     # 将``key``所对应的``value``替换�
         prase(obj[current_key], next_key, value)
 
 # 解析所有词条
-for key, translation in entries.items():
-    if not key.startswith(file_name):
-        continue
+for file_name in files:
+    for key, translation in entries.items():
+        if not key.startswith(file_name):
+            continue
 
-    current_key = key.replace(f'{file_name}:||', '')
-    prase(datas[file_name], current_key, translation)
+        current_key = key.replace(f'{file_name}:||', '')
+        prase(datas[file_name], current_key, translation)
 
 print(f'[INFO] 词条解析完成。')
 
